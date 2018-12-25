@@ -5,7 +5,9 @@
   "author": "Katsuya003 <bb.win.3@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --hot --inline"
+    "start": "./node_modules/.bin/webpack-dev-server --mode development --hot --inline",
+    "dev": "./node_modules/.bin/webpack --mode development",
+    "build": "./node_modules/.bin/webpack --mode production"
   },
   "devDependencies": {
     "webpack": "^4.28.2",
